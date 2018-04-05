@@ -14,7 +14,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to the Hawaiin Shirt Store</h1>
+          <h1 className="App-title">Welcome to Leifs Hawaiin Shirt Store</h1>
         </header>
         <img src='shirt.jpg' alt='hawaiin shirt' width="300" height="300"/>
         <p>Buy this fine Hawaiin Shirt</p>

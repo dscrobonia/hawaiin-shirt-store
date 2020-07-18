@@ -1,0 +1,9 @@
+name: Shift Left Security Scan
+on: [push]
+
+jobs:
+        build:
+                runs-on: ubuntu-latest
+                steps:
+                        - name: Perform ShiftLeft Scan
+                          uses: ShiftLeftSecurity/scan-action@master
